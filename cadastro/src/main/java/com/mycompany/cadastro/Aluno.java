@@ -28,8 +28,10 @@ public class Aluno extends Pessoa{
         this.nota2 = nota2;
         
     }
-    
-    
+        @Override
+        public void Apresentar(){
+    System.out.println("ola eu sou o aluno.me chamo : " + this.getNome() );
+    }
     
     
     

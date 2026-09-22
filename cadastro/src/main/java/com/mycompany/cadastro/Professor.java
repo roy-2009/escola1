@@ -32,17 +32,8 @@ public class Professor extends Pessoa{
         this.ncontato = ncontato;
         this.salario = salario;
     } 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    @Override 
+    public void Apresentar(){
+    System.out.println("ola eu sou o professor.me chamo : " + this.getNome());
+    }  
 }
